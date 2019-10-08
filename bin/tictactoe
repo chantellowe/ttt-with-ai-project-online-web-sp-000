@@ -4,4 +4,14 @@ require_relative '../config/environment'
 
 def start
   puts "Welcome to Tic Tac Toe!"
-  puts "What kind of game 
+  puts "Please choose your game mode:
+  
+  0 - Computer v Computer
+  1 - Player v Computer
+  2 - Player v Player"
+  
+  game_mode = gets.chomp
+  
+  if game_mode = "0"
+    
+end
