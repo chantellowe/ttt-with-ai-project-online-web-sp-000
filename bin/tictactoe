@@ -8,7 +8,8 @@ def start
   
   0 - Computer v Computer
   1 - Player v Computer
-  2 - Player v Player"
+  2 - Player v Player
+  exit - to stop playing"
   
   game_mode = gets.chomp
   
@@ -24,4 +25,4 @@ def start
   end
 end
 
-start
+start until gets.chomp == "exit"
