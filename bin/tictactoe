@@ -13,5 +13,5 @@ def start
   game_mode = gets.chomp
   
   if game_mode = "0"
-    Game.new(Player
+    Game.new(Players::Computer
 end
